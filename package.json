@@ -1,0 +1,41 @@
+{
+  "name": "@haakco/api-schemas",
+  "version": "1.0.0",
+  "description": "Comprehensive Zod schema collections for API validation, type generation, and data validation",
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./common": "./common.ts",
+    "./auth": "./auth.ts",
+    "./validation": "./validation.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:haakco/api-schemas"
+  },
+  "keywords": [
+    "zod",
+    "schemas",
+    "validation",
+    "typescript",
+    "api",
+    "forms",
+    "type-generation"
+  ],
+  "author": "HaakCo",
+  "license": "MIT",
+  "peerDependencies": {
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "files": [
+    "index.ts",
+    "common.ts",
+    "auth.ts",
+    "validation.ts",
+    "__tests__"
+  ]
+}
